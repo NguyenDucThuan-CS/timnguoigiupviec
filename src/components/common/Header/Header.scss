@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    &__avatar {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        .avatar {
+            height: 45px;
+            width: 45px;
+            border-radius: 10px;
+        }
+        &--info {
+            p {
+                margin: 0;
+                font-size: 18px;
+                &:first-child {
+                    font-size: 14px;
+                }
+                &:last-child {
+                    font-weight: 700;
+                }
+            }    
+        }
+    }
+}

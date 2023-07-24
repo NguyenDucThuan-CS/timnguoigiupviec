@@ -1,0 +1,13 @@
+.main-layout {
+  position: relative;
+  max-width: 576px;
+  background: linear-gradient(rgba(146, 225, 240, 1), rgba(0, 149, 233, 1));
+  margin: auto;
+  height: 100vh;
+  overflow: scroll;
+  padding: 20px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

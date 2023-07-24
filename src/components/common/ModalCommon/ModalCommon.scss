@@ -1,0 +1,32 @@
+.modal-common {
+    width: 364px;
+    height: 181px;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0.9;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    img {
+        width: 124px;
+        height: 101px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .content {
+        margin: auto;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .list-button {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        display: flex;
+        button {
+            margin-right: 10px;
+        }
+    }
+}

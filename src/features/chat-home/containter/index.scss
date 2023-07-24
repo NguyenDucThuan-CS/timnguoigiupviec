@@ -1,0 +1,15 @@
+.chat-home {
+  &__header {
+    margin-bottom: 15px;
+  }
+  &__search {
+    margin-bottom: 18px;
+  }
+  &__bottom {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+.bottom {
+//   background: white;
+ 
+  
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 32px;
+//   padding: 19px;
+//   position: absolute;
+//   width: calc(100% + 40px);
+//   margin-left: -20px;
+//   margin-right: -20px;
+//   margin-bottom: -20px;
+
+
+//   bottom: 0;
+//   right: 0;
+//   left: 0;
+ 
+  &__item {
+    text-align: center;
+    div {
+      &:last-child {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #CDCDCD;
+      }
+    }
+  }
+}
